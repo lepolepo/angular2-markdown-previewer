@@ -1,0 +1,9 @@
+.container {
+    margin-top: 30px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100%;
+    border-radius: 0px;
+}
