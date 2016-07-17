@@ -7,4 +7,8 @@ export const HomeRoutes: RouterConfig = [
     path: '',
     component: HomeComponent
   },
+  {
+    path: 'angular2-markdown-previewer',
+    component: HomeComponent
+  }
 ];
