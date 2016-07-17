@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 declare var marked: any;
 declare var MathJax: any;
@@ -21,9 +21,9 @@ Some display math:\n\n \
 \\\\[ f = f(t) = f(x_1(t), \\ldots, x_n(t)) \\\\]\n\n \
 \\\\[ \\mathrm{d}f = \\sum_{i=1}^n \\frac{\\partial f}{\\partial x_i}\\frac{\\mathrm{d}x_i}{\\mathrm{d}t} \\\\]\n\n \
 #### Check out:\n\n \
-* [marked](https://github.com/chjj/marked)\n \
-* [MathJax](https://github.com/mathjax/MathJax)\n \
-* [angular2-seed](https://github.com/mgechev/angular2-seed)\n\n';
+* [marked](https://github.com/chjj/marked/)\n \
+* [MathJax](https://github.com/mathjax/MathJax/)\n \
+* [angular2-seed](https://github.com/mgechev/angular2-seed/)\n\n';
   time: any;
 
   constructor() {
